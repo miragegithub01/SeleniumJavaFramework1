@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 23.295 s <<< FAILURE! - in TestSuite
+com.expedia.flightsbooking.TestNG_TestSuite.test2_fillAdvancedInfo  Time elapsed: 0.203 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+Element <label id="advanced-flight-nonstop-label-hp-flight" class="check"> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RAHULVERMA', ip: '192.168.0.28', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200117190643, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 18012, moz:profile: C:\Users\Rahul Verma\AppDat..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e398ad0d-e15a-4db5-940e-82feb442ea70
+	at com.expedia.flightsbooking.TestNG_TestSuite.test2_fillAdvancedInfo(TestNG_TestSuite.java:59)
+
